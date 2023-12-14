@@ -1,0 +1,185 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    list-style: none;
+  }
+
+#preloader{
+    /* background: #000 url(image/loader-unscreen.gif) no-repeat center center; */
+    width: 100%;
+    height:100vh;
+    position: fixed;
+    z-index: 100;
+}
+.navbar{
+    background-color: #0062be;
+    padding: ;
+}
+.nav-item .nav-link{
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+iframe{
+    display: none;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #0062be;
+}
+header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+    color: #fff;
+
+}
+ul li{
+    display: inline;
+    padding: 10px;
+    
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+ul li a:active{
+   color: rgb(68, 143, 209);
+  
+}
+
+.content{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2{
+    font-weight: 900;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-size: 4em;
+    color: #fff;
+}
+.content .textBox p{
+    color: #fff;
+}
+.content .textBox h2 span{
+    font-size: 2em;
+}
+.content .textBox a{
+    margin-top: 60px;
+    font-weight: 600;
+    background-color: #5252;
+    padding: 8px 20px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+.content .imgBox{
+    width: 600px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    
+}
+.content .imgBox img{
+    max-width: 262px;
+}
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover{
+    transform: translateY(-15%);
+}
+.thumb li img{
+    max-width: 40px;
+}
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.sci li a {
+    display: inline-block;
+    filter: invert(1);
+    margin: 5px 0;
+    transform: scale(0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
